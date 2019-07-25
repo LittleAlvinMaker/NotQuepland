@@ -246,8 +246,8 @@
     "id": 17,
     "value": 90,
     "icon": "Pelt",
-    "isTannable": true,
-    "requiredLevel": 1
+    "requiredLevel": 1,
+    "isTannable": true
   },
   {
     "itemName": "Deer Meat",
@@ -1063,6 +1063,7 @@
     "itemDescription": "The pelt of a bison.",
     "id": 85,
     "icon": "Pelt",
+    "requiredLevel": 91,
     "isTannable": true,
     "value": 700
   },
@@ -1080,6 +1081,7 @@
     "itemDescription": "The pelt of a wild boar.",
     "id": 87,
     "value": 325,
+    "requiredLevel": 43,
     "isTannable": true,
     "icon": "Pelt"
   },
