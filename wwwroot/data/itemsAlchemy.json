@@ -1,0 +1,68 @@
+[
+  {
+    "itemName": "Alchemic Dust",
+    "itemDescription": "A pile of dust from a failed alchemy attempt.",
+    "id": 61,
+    "value": 0,
+    "queplarValue": -1,
+    "icon": "Gold"
+  },
+  {
+    "itemName": "Carquen",
+    "itemDescription": "A pile of pure carquen.",
+    "id": 62,
+    "queplarValue": -5,
+    "value": 10,
+    "isStackable": true,
+    "icon": "Element"
+  },
+  {
+    "itemName": "Quencium",
+    "itemDescription": "A pile of pure quencium.",
+    "id": 63,
+    "queplarValue": -10,
+    "value": 35,
+    "isStackable": true,
+    "icon": "Element"
+  },
+  {
+    "itemName": "Oxyquen",
+    "itemDescription": "A pile of pure oxyquen.",
+    "id": 64,
+    "queplarValue": -15,
+    "value": 90,
+    "icon": "Element",
+    "isStackable": true
+  },
+  {
+    "itemName": "Nitroquen",
+    "itemDescription": "A pile of pure nitroquen.",
+    "id": 65,
+    "queplarValue": -20,
+    "value": 180,
+    "isStackable": true,
+    "icon": "Element"
+  },
+  {
+    "itemName": "Elemental Mix",
+    "id": 321,
+    "value": 1000,
+    "itemDescription": "A bag containing base elements",
+    "unpackIDs": [ 62, 63, 64, 65 ],
+    "madeOnCreation": 10,
+    "isUnpackable": true,
+    "unpackString": "Open",
+    "icon": "Bag"
+  },
+  {
+    "itemName": "Large Elemental Mix",
+    "id": 322,
+    "value": 3000,
+    "itemDescription": "A large bag containing base elements",
+    "unpackIDs": [ 62, 63, 64, 65 ],
+    "madeOnCreation": 30,
+    "isUnpackable": true,
+    "unpackString": "Open",
+    "icon": "Bag"
+  }
+]

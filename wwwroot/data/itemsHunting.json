@@ -1,0 +1,395 @@
+[
+  {
+    "itemName": "Deer",
+    "itemDescription": "The carcass of a deer.",
+    "id": 14,
+    "value": 100,
+    "isUnpackable": true,
+    "unpackIDs": [ 16, 18, 33 ],
+    "unpackString": "Gut",
+    "actionRequired": "Hunting",
+    "requiredLevel": 5,
+    "experienceGained": "Hunting:200",
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Rabbit",
+    "itemDescription": "The carcass of a rabbit.",
+    "id": 15,
+    "value": 30,
+    "isUnpackable": true,
+    "unpackIDs": [ 17, 19 ],
+    "unpackString": "Gut",
+    "actionRequired": "Hunting",
+    "requiredLevel": 1,
+    "experienceGained": "Hunting:120",
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Deer Pelt",
+    "itemDescription": "The pelt of a deer.",
+    "id": 16,
+    "value": 150,
+    "icon": "Pelt",
+    "requiredLevel": 5,
+    "isTannable": true
+  },
+  {
+    "itemName": "Rabbit Pelt",
+    "itemDescription": "The pelt of a rabbit.",
+    "id": 17,
+    "value": 90,
+    "icon": "Pelt",
+    "isTannable": true,
+    "requiredLevel": 1
+  },
+  {
+    "itemName": "Deer Meat",
+    "itemDescription": "The meat of a deer.",
+    "id": 18,
+    "value": 30,
+    "icon": "Meat",
+    "isCurable": true
+  },
+  {
+    "itemName": "Rabbit Meat",
+    "itemDescription": "The meat of a rabbit.",
+    "id": 19,
+    "value": 15,
+    "icon": "Meat",
+    "isCurable": true
+  },
+  {
+    "itemName": "Deer Antlers",
+    "itemDescription": "The antlers of a deer.",
+    "id": 33,
+    "value": 300,
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Buck",
+    "itemDescription": "The carcass of a male deer.",
+    "id": 66,
+    "value": 150,
+    "isUnpackable": true,
+    "unpackIDs": [ 16, 18, 33 ],
+    "unpackString": "Gut",
+    "actionRequired": "Hunting",
+    "requiredLevel": 20,
+    "experienceGained": "Hunting:400",
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Black Bear",
+    "itemDescription": "The carcass of a bear.",
+    "id": 67,
+    "value": 180,
+    "isUnpackable": true,
+    "unpackIDs": [ 75, 76 ],
+    "unpackString": "Gut",
+    "actionRequired": "Hunting",
+    "requiredLevel": 55,
+    "experienceGained": "Hunting:900",
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Moose",
+    "itemDescription": "The carcass of a moose.",
+    "id": 68,
+    "value": 300,
+    "isUnpackable": true,
+    "unpackIDs": [ 78, 79 ],
+    "unpackString": "Gut",
+    "actionRequired": "Hunting",
+    "requiredLevel": 65,
+    "experienceGained": "Hunting:1200",
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Grizzly Bear",
+    "itemDescription": "The carcass of a bear.",
+    "id": 69,
+    "value": 300,
+    "isUnpackable": true,
+    "unpackIDs": [ 76, 77 ],
+    "unpackString": "Gut",
+    "actionRequired": "Hunting",
+    "requiredLevel": 80,
+    "experienceGained": "Hunting:1800",
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Pigeon",
+    "itemDescription": "The carcass of a pigeon.",
+    "id": 70,
+    "value": 10,
+    "isUnpackable": true,
+    "unpackIDs": [ 231, 81 ],
+    "unpackString": "Gut",
+    "actionRequired": "Hunting",
+    "requiredLevel": 1,
+    "experienceGained": "Hunting:70",
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Wild Boar",
+    "itemDescription": "The carcass of a wild boar.",
+    "id": 71,
+    "value": 110,
+    "isUnpackable": true,
+    "unpackIDs": [ 86, 87, 88 ],
+    "unpackString": "Gut",
+    "actionRequired": "Hunting",
+    "requiredLevel": 43,
+    "experienceGained": "Hunting:640",
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Turkey",
+    "itemDescription": "The carcass of a turkey.",
+    "id": 72,
+    "value": 55,
+    "isUnpackable": true,
+    "unpackIDs": [ 233, 82 ],
+    "unpackString": "Gut",
+    "actionRequired": "Hunting",
+    "requiredLevel": 30,
+    "experienceGained": "Hunting:350",
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Pheasant",
+    "itemDescription": "The carcass of a pheasant.",
+    "id": 73,
+    "value": 30,
+    "isUnpackable": true,
+    "unpackIDs": [ 231, 83 ],
+    "unpackString": "Gut",
+    "actionRequired": "Hunting",
+    "requiredLevel": 14,
+    "experienceGained": "Hunting:140",
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Bison",
+    "itemDescription": "The carcass of a bison.",
+    "id": 74,
+    "value": 700,
+    "isUnpackable": true,
+    "unpackIDs": [ 84, 85 ],
+    "unpackString": "Gut",
+    "actionRequired": "Hunting",
+    "requiredLevel": 91,
+    "experienceGained": "Hunting:4000",
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Black Bear Pelt",
+    "itemDescription": "The pelt of a black bear.",
+    "id": 75,
+    "value": 290,
+    "icon": "Pelt",
+    "requiredLevel": 55,
+    "isTannable": true
+  },
+  {
+    "itemName": "Bear Meat",
+    "itemDescription": "The meat of a bear.",
+    "id": 76,
+    "value": 100,
+    "icon": "Meat",
+    "isCurable": true
+
+  },
+  {
+    "itemName": "Grizzly Bear Pelt",
+    "itemDescription": "The pelt of a grizzly bear.",
+    "id": 77,
+    "value": 550,
+    "icon": "Pelt",
+    "requiredLevel": 80,
+    "isTannable": true
+  },
+  {
+    "itemName": "Moose Meat",
+    "itemDescription": "The meat of a moose.",
+    "id": 78,
+    "value": 100,
+    "icon": "Meat",
+    "isCurable": true
+
+  },
+  {
+    "itemName": "Moose Pelt",
+    "itemDescription": "The pelt of a moose.",
+    "id": 79,
+    "value": 550,
+    "requiredLevel": 65,
+    "isTannable": true,
+    "icon": "Pelt"
+  },
+  {
+    "itemName": "Moose Antlers",
+    "itemDescription": "The antlers of a moose.",
+    "id": 80,
+    "value": 100,
+    "icon": "Deer"
+  },
+  {
+    "itemName": "Pigeon Meat",
+    "itemDescription": "The meat of a pigeon. Probably shouldn't eat it...",
+    "id": 81,
+    "value": 5,
+    "icon": "Bird",
+    "isCurable": true
+
+  },
+  {
+    "itemName": "Turkey Meat",
+    "itemDescription": "The meat of a turkey.",
+    "id": 82,
+    "value": 75,
+    "icon": "Bird",
+    "isCurable": true
+
+  },
+  {
+    "itemName": "Pheasant Meat",
+    "itemDescription": "The meat of a pheasant.",
+    "id": 83,
+    "value": 40,
+    "icon": "Bird",
+    "isCurable": true
+
+  },
+  {
+    "itemName": "Bison Meat",
+    "itemDescription": "The meat of a bison.",
+    "id": 84,
+    "value": 150,
+    "icon": "Meat",
+    "isCurable": true
+
+  },
+  {
+    "itemName": "Bison Pelt",
+    "itemDescription": "The pelt of a bison.",
+    "id": 85,
+    "icon": "Pelt",
+    "isTannable": true,
+    "value": 700,
+    "requiredLevel": 91
+  },
+  {
+    "itemName": "Wild Boar Meat",
+    "itemDescription": "The meat of a wild boar.",
+    "id": 86,
+    "value": 100,
+    "icon": "Meat",
+    "isCurable": true
+
+  },
+  {
+    "itemName": "Wild Boar Pelt",
+    "itemDescription": "The pelt of a wild boar.",
+    "id": 87,
+    "value": 325,
+    "isTannable": true,
+    "icon": "Pelt",
+    "requiredLevel": 43
+  },
+  {
+    "itemName": "Wild Boar Tusk",
+    "itemDescription": "The tusk of a wild boar.",
+    "id": 88,
+    "value": 375,
+    "icon": "Pelt"
+  },
+  {
+      "itemName": "Big Moose Antlers",
+      "itemDescription": "The antlers of a giant moose.",
+      "id": 378,
+      "value": 1000,
+      "icon": "Deer",
+      "isUsable": true,
+      "destroyOnUse": true,
+      "usableIDs": [
+        [ 361, 379 ]
+      ]
+    },
+    {
+      "itemName": "Big Moose",
+      "itemDescription": "The carcass of a massive moose.",
+      "id": 380,
+      "value": 3000,
+      "isUnpackable": true,
+      "unpackIDs": [ 78, 78, 78, 79, 79, 79, 378 ],
+      "unpackString": "Gut",
+      "actionRequired": "Hunting",
+      "requiredLevel": 85,
+      "experienceGained": "Hunting:1200",
+      "icon": "Deer"
+    },
+    {
+      "itemName": "Polar Bear",
+      "itemDescription": "The carcass of a bear.",
+      "id": 436,
+      "value": 3000,
+      "isUnpackable": true,
+      "unpackIDs": [ 437, 76 ],
+      "unpackString": "Gut",
+      "actionRequired": "Hunting",
+      "requiredLevel": 99,
+      "experienceGained": "Hunting:4000",
+      "icon": "Deer"
+    },
+    {
+      "itemName": "Polar Bear Pelt",
+      "itemDescription": "The pelt of a polar bear.",
+      "id": 437,
+      "value": 5500,
+      "icon": "Pelt",
+      "requiredLevel": 99,
+      "isTannable": true
+    },
+    {
+      "itemName": "Polar Bear Claws",
+      "itemDescription": "Claws from an exceptionally large polar bear.",
+      "id": 461,
+      "value": 25000,
+      "icon": "Leather",
+      "requiredLevel": 99,
+      "isTannable": true,
+      "isUsable": true,
+      "destroyOnUse": true,
+      "usableIDs": [
+        [ 439, 463 ]
+      ]
+    },
+    {
+      "itemName": "Giant Polar Bear",
+      "itemDescription": "The carcass of a massive bear.",
+      "id": 462,
+      "value": 70000,
+      "isUnpackable": true,
+      "unpackIDs": [ 437, 437, 437, 76, 461 ],
+      "unpackString": "Gut",
+      "actionRequired": "Hunting",
+      "requiredLevel": 99,
+      "experienceGained": "Hunting:8000",
+      "icon": "Deer"
+    },
+    {
+     "itemName": "Woolly Mammoth",
+     "itemDescription": "The carcass of a woolly mammoth.",
+     "id": 484,
+     "value": 5000,
+     "isUnpackable": true,
+     "unpackIDs": [ 437, 76 ],
+     "unpackString": "Gut",
+     "actionRequired": "Hunting",
+     "requiredLevel": 105,
+     "experienceGained": "Hunting:6000",
+     "icon": "Deer"
+   }
+]

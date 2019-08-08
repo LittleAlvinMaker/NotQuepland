@@ -24,6 +24,28 @@ public class ItemDatabase
     {
         GameItem[] newItems = await Http.GetJsonAsync<GameItem[]>("data/items.json");
         items.AddRange(newItems);
+        GameItem[] newWeaponItems = await Http.GetJsonAsync<GameItem[]>("data/itemsWeapons.json");
+        items.AddRange(newWeaponItems);
+        GameItem[] newGatheringItems = await Http.GetJsonAsync<GameItem[]>("data/itemsGathering.json");
+        items.AddRange(newGatheringItems);
+        GameItem[] newHuntingItems = await Http.GetJsonAsync<GameItem[]>("data/itemsHunting.json");
+        items.AddRange(newHuntingItems);
+        GameItem[] newMiningItems = await Http.GetJsonAsync<GameItem[]>("data/itemsMining.json");
+        items.AddRange(newMiningItems);
+        GameItem[] newSmithingItems = await Http.GetJsonAsync<GameItem[]>("data/itemsSmithing.json");
+        items.AddRange(newSmithingItems);
+        GameItem[] newFishingItems = await Http.GetJsonAsync<GameItem[]>("data/itemsFishing.json");
+        items.AddRange(newFishingItems);
+        GameItem[] newCarvingItems = await Http.GetJsonAsync<GameItem[]>("data/itemsCarving.json");
+        items.AddRange(newCarvingItems);
+        GameItem[] newAlchemyItems = await Http.GetJsonAsync<GameItem[]>("data/itemsAlchemy.json");
+        items.AddRange(newAlchemyItems);
+        GameItem[] newArcheryItems = await Http.GetJsonAsync<GameItem[]>("data/itemsArchery.json");
+        items.AddRange(newArcheryItems);
+        GameItem[] newCulinaryItems = await Http.GetJsonAsync<GameItem[]>("data/itemsCulinary.json");
+        items.AddRange(newCulinaryItems);
+        GameItem[] newLeatherItems = await Http.GetJsonAsync<GameItem[]>("data/itemsLeather.json");
+        items.AddRange(newLeatherItems);
         foreach(GameItem i in items)
         {
             if(i.ActionRequired == "Smithing" && i.ItemName != "Smithing Necklace")
