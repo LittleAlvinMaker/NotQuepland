@@ -8,66 +8,6 @@
     "icon": "Gold"
   },
   {
-    "itemName": "Chicken Meat",
-    "itemDescription": "The meat of a chicken.",
-    "id": 42,
-    "value": 10,
-    "icon": "Bird",
-    "isCurable": true
-
-  },
-  {
-    "itemName": "Feather",
-    "isStackable": true,
-    "id": 43,
-    "value": 1,
-    "itemDescription": "A feather from a bird.",
-    "madeOnCreation": 15,
-    "usableIDs": [
-      [ 9, 186 ],
-      [ 11, 187 ],
-      [ 143, 188 ],
-      [ 145, 189 ],
-      [ 147, 190 ],
-      [ 149, 191 ],
-      [ 151, 192 ],
-      [ 153, 193 ],
-      [ 155, 194 ],
-      [ 157, 195 ],
-      [ 159, 196 ],
-      [ 161, 197 ],
-      [ 403, 404 ]
-
-    ],
-    "icon": "Feather",
-    "isUsable": true,
-    "destroyOnUse": true
-  },
-  {
-    "itemName": "Chicken Egg",
-    "id": 44,
-    "itemDescription": "If you could incubate this it might grow into a chicken.",
-    "value": 10,
-    "icon": "Food"
-  },
-  {
-    "itemName": "Kogoe Gym Membership Card",
-    "id": 139,
-    "itemDescription": "A proof of membership to an exclusive club.",
-    "value": 1200,
-    "gatherString": "You got a gym membership card.",
-    "actionsEnabled": "Gym Membership",
-    "icon": "Card"
-  },
-  {
-    "itemName": "Camel",
-    "itemDescription": "An even-toed ungulate with two large humps on its back. It doesn't fit in your inventory, but it takes up a space anyways.  ¯\\_(ツ)_/¯",
-    "id": 162,
-    "value": 45000,
-    "actionsEnabled": "Desert Travel",
-    "icon": "Transport"
-  },
-  {
     "itemName": "Coin Pouch (25)",
     "itemDescription": "25 coins in a pouch.",
     "id": 226,
@@ -123,6 +63,57 @@
     "icon": "Bag"
   },
   {
+    "itemName": "Coin Voucher",
+    "itemDescription": "Substitute money for the wealthiest of us.",
+    "id": 483,
+    "value": 100000000,
+    "isStackable": true,
+    "icon": "Gold"
+  },
+  {
+    "itemName": "Chicken Meat",
+    "itemDescription": "The meat of a chicken.",
+    "id": 42,
+    "value": 10,
+    "icon": "Bird",
+    "isCurable": true
+
+  },
+  {
+    "itemName": "Chicken Egg",
+    "id": 44,
+    "itemDescription": "If you could incubate this it might grow into a chicken.",
+    "value": 10,
+    "icon": "Food"
+  },
+  {
+    "itemName": "Feather",
+    "isStackable": true,
+    "id": 43,
+    "value": 1,
+    "itemDescription": "A feather from a bird.",
+    "madeOnCreation": 15,
+    "usableIDs": [
+      [ 9, 186 ],
+      [ 11, 187 ],
+      [ 143, 188 ],
+      [ 145, 189 ],
+      [ 147, 190 ],
+      [ 149, 191 ],
+      [ 151, 192 ],
+      [ 153, 193 ],
+      [ 155, 194 ],
+      [ 157, 195 ],
+      [ 159, 196 ],
+      [ 161, 197 ],
+      [ 403, 404 ]
+
+    ],
+    "icon": "Feather",
+    "isUsable": true,
+    "destroyOnUse": true
+  },
+  {
     "itemName": "Tuft of Feathers",
     "itemDescription": "A few feathers attached together.",
     "id": 231,
@@ -154,28 +145,6 @@
     "madeOnCreation": 50,
     "unpackString": "Pull Apart",
     "icon": "Feather"
-  },
-  {
-    "itemName": "Yoga Mat",
-    "itemDescription": "You could do yoga on this mat.",
-    "id": 292,
-    "value": 15000,
-    "actionsEnabled": "Yoga",
-    "isEquipable": true,
-    "equipSlot": "Right Hand",
-    "damage": 3,
-    "actionRequired": "HP",
-    "requiredLevel": 50,
-    "attackSpeed": 3000,
-    "icon": "Yoga"
-  },
-  {
-    "itemName": "River Raft",
-    "itemDescription": "A set of logs crudely tied together with some rope.",
-    "id": 314,
-    "value": 45000,
-    "actionsEnabled": "Rafting",
-    "icon": "Transport"
   },
   {
     "itemName": "Baobhan Tooth",
@@ -440,13 +409,5 @@
     "actionRequired": "HP",
     "experienceGainBonus": 0.1,
     "gatherSpeedBonus": 0.1
-  },
-  {
-    "itemName": "Coin Voucher",
-    "itemDescription": "Substitute money for the wealthiest of us.",
-    "id": 483,
-    "value": 100000000,
-    "isStackable": true,
-    "icon": "Gold"
   }
 ]

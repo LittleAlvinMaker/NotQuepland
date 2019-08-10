@@ -156,6 +156,18 @@
     "unpackString": "Break Apart"
   },
   {
+    "itemName": "Cave Rock",
+    "itemDescription": "A bit of rubble.",
+    "id": 482,
+    "value": 20,
+    "actionRequired": "Mining",
+    "gatherSpeed": 5000,
+    "requiredLevel": 97,
+    "experienceGained": "Mining:25",
+    "gatherString": "You mine some cave wall.",
+    "icon": "Ore"
+  },
+  {
     "itemName": "Rough Small Emerald",
     "itemDescription": "A small uncut emerald.",
     "id": 464,
@@ -369,18 +381,6 @@
     "requiredLevel": 119,
     "experienceGained": "Mining:1300",
     "gatherString": "You mine a large diamond.",
-    "icon": "Ore"
-  },
-  {
-    "itemName": "Cave Rock",
-    "itemDescription": "A bit of rubble.",
-    "id": 482,
-    "value": 20,
-    "actionRequired": "Mining",
-    "gatherSpeed": 5000,
-    "requiredLevel": 97,
-    "experienceGained": "Mining:25",
-    "gatherString": "You mine some cave wall.",
     "icon": "Ore"
   }
 ]

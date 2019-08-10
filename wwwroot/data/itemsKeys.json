@@ -1,0 +1,57 @@
+[
+  {
+    "itemName": "Kogoe Gym Membership Card",
+    "id": 139,
+    "itemDescription": "A proof of membership to an exclusive club.",
+    "value": 1200,
+    "gatherString": "You got a gym membership card.",
+    "actionsEnabled": "Gym Membership",
+    "icon": "Card"
+  },
+  {
+    "itemName": "Small Boat",
+    "id": 245,
+    "itemDescription": "A small boat you can sail the seas with.",
+    "value": 25000,
+    "actionsEnabled": "Shallow Ocean Travel",
+    "icon": "Transport"
+  },
+  {
+    "itemName": "Large Boat",
+    "id": 246,
+    "itemDescription": "A large boat you can sail the seas with.",
+    "value": 500000,
+    "actionsEnabled": "Shallow Ocean Travel, Deep Ocean Travel",
+    "icon": "Transport"
+  },
+  {
+    "itemName": "Camel",
+    "itemDescription": "An even-toed ungulate with two large humps on its back. It doesn't fit in your inventory, but it takes up a space anyways.  ¯\\_(ツ)_/¯",
+    "id": 162,
+    "value": 45000,
+    "actionsEnabled": "Desert Travel",
+    "icon": "Transport"
+  },
+  {
+    "itemName": "Yoga Mat",
+    "itemDescription": "You could do yoga on this mat.",
+    "id": 292,
+    "value": 15000,
+    "actionsEnabled": "Yoga",
+    "isEquipable": true,
+    "equipSlot": "Right Hand",
+    "damage": 3,
+    "actionRequired": "HP",
+    "requiredLevel": 50,
+    "attackSpeed": 3000,
+    "icon": "Yoga"
+  },
+  {
+    "itemName": "River Raft",
+    "itemDescription": "A set of logs crudely tied together with some rope.",
+    "id": 314,
+    "value": 45000,
+    "actionsEnabled": "Rafting",
+    "icon": "Transport"
+  }
+]
