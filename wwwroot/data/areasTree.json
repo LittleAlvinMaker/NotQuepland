@@ -1,0 +1,608 @@
+[
+  {
+    "areaURL": "Quepland",
+    "name" : "Quepland",
+    "description": "The main region of the world. Home to cities, forests, mountains, and oceans.",
+    "zones" : [
+      {
+        "areaURL": "MountQueple",
+        "name" : "Mount Queple",
+        "description": "The mountain near which you began your journey.",
+        "areas" : [
+          {
+            "areaURL": "queplandFields",
+            "name": "Quepland Fields",
+            "description": "There is a small stream and a forest of white pine trees. A large poplar tree has fallen and blocks your path forward.",
+            "unlockableAreas": [ "Quepland Woods,Clear away Tree,Woodcutting:2,Woodcutting" ],
+            "actions": [ "Fish For Minnows:Minnow", "Chop White Pine Trees:White Pine Logs" ],
+            "icon": "oi oi-fire"
+          }, {
+            "areaURL": "queplandWoods",
+            "name": "Quepland Woods",
+            "description": "You enter a thick woods consisting of mostly poplar trees. The path meanders up the mountain along a brook full of sunfish.",
+            "unlockableAreas": [ "The foot of Mt Queple,Continue along path,,", "Rocky Shores Beach,Head north through the trees,Woodcutting:25,Woodcutting" ],
+            "actions": [ "Fish For Sunfish:Sunfish", "Chop Poplar Trees:Poplar Logs", "Hunting", "Battle" ],
+            "npcIDs": [ 49, 63 ],
+            "monsterIDs": [ 2, 11, 4 ],
+            "huntingIDs": [ 14, 15, 66, 67, 68, 69, 71 ],
+            "icon": "oi oi-rain"
+          }, {
+            "areaURL": "quepleFoot",
+            "name": "The foot of Mt Queple",
+            "description": "You emerge from the forest at the base of the great Mount Queple. There are stones scattered about and many bushes to gather berries from. You can see a mountain village in the distance.",
+            "unlockableAreas": [ "Teppas,Head to village,," ],
+            "actions": [ "Gather Stone:Stone", "Gather Berries:Berry" ],
+            "npcIDs": [ 14 ],
+            "icon": "oi oi-graph"
+          }, {
+            "areaURL": "teppas",
+            "name": "Teppas",
+            "description": "You enter the small mountain town of Teppas. There is a shop to buy and sell goods from. A winding main street continues up the mountain.",
+            "buildings": [ "TeppasGeneralStore", "MayorsHouse", "TeppasInn" ],
+            "unlockableAreas": [ "Lower Mt Queple Trail, Go through the village,," ],
+            "npcIDs": [ 13 ],
+            "icon": "oi oi-basket"
+          }, {
+            "areaURL": "lowerMtQuepleTrail",
+            "name": "Lower Mt Queple Trail",
+            "description": "As you begin your ascent up the mountain, you notice the mouth of a cave off to the side of the path. A large totem pole stands near its entrance. Along the mountain side you can see deposits of copper, tin, iron, and calamine.",
+            "buildings": [ "SushiShack" ],
+            "unlockableAreas": [ "Queple Cave Entrance,Enter the cave,,", "Upper Mt Queple Trail,Continue up the trail,," ],
+            "actions": [ "Mining", "Battle", "Carve totem pole:Cheap Totem" ],
+            "npcIDs": [ 19 ],
+            "monsterIDs": [ 0, 1, 2 ],
+            "icon": "oi oi-compass"
+          }, {
+            "areaURL": "upperMTQuepleTrail",
+            "name": "Upper Mt Queple Trail",
+            "description": "Having made a good distance up the mountain, you find the only way the rest of the way up is to climb.",
+            "unlockableAreas": [ "The Peak of Mount Queple,Climb to the summit,,", "Eastern Trail,Continue around the mountain,," ],
+            "actions": [ "Chop Oak Trees:Oak Logs" ],
+            "npcIDs": [65],
+            "icon": "oi oi-compass"
+          }, {
+            "areaURL": "MtQueplePeak",
+            "name": "The Peak of Mount Queple",
+            "description": "You arrive near the summit of the mountain to find an abandoned building. The roar of rushing wind emanates through its halls.",
+            "buildings": [ "WindHall" ],
+            "icon": "oi oi-chevron-top"
+          }, {
+            "areaURL": "EasternTrail",
+            "name": "Eastern Trail",
+            "description": "You continue along the trail and pass by Mount Queple. A large swamp comes into view up ahead.",
+            "unlockableAreas": [ "Swampland,Continue Down into the Swamp,," ],
+            "npcIDs": [ 15 ],
+            "icon": "oi oi-flag"
+          }
+        ],
+        "icon": "oi oi-image"
+      }, {
+        "areaURL": "quepleCave",
+        "name": "Queple Cave",
+        "description": "You mark the cave in your journal. You can now quickly access parts of the cave you have already visited through the sidebar.",
+        "areas" : [
+          {
+            "areaURL": "quepleCaveEntrance",
+            "name": "Queple Cave Entrance",
+            "description": "Inside the cave you find a labyrinth of tunnels enveloped in darkness. It's probably safe to explore.",
+            "areaToUnlockOnArrival": "Queple Cave",
+            "buildings": [ "QuepleCaveEntrance" ],
+            "icon": "oi oi-pulse"
+          }, {
+            "areaURL": "QCCopperMine",
+            "name": "Queple Cave Copper Mine",
+            "description": "There is a lot of copper here.",
+            "actions": [ "Mine Copper:Copper Ore" ],
+            "icon": "oi oi-euro"
+          }, {
+            "areaURL": "QuepleCaveSmithy",
+            "name": "Queple Cave Smithy",
+            "description": "There is a large, working forge here.",
+            "actions": [ "Smithing" ],
+            "icon": "oi oi-aperture"
+          }, {
+            "areaURL": "QCTinMine",
+            "name": "Queple Cave Tin Mine",
+            "description": "There is a lot of tin here.",
+            "actions": [ "Mine Tin:Tin Ore" ],
+            "icon": "oi oi-euro"
+          }, {
+            "areaURL": "QCIronMine",
+            "name": "Queple Cave Iron Mine",
+            "description": "There is a lot of iron here.",
+            "actions": [ "Mine Iron:Iron Ore" ],
+            "icon": "oi oi-euro"
+          }, {
+            "areaURL": "QCRiver",
+            "name": "Queple Cave River",
+            "description": "There are a lot of fish here.",
+            "actions": [ "Fish for shad:Shad", "Fish for salmon:Salmon", "Battle" ],
+            "monsterIDs": [ 15, 24, 25, 26, 27, 39 ],
+            "icon": "oi oi-droplet"
+          }, {
+            "areaURL": "QCHuntingCave",
+            "name": "Deep Cave Hunting Area",
+            "description": "There are plenty of exotic animals to catch here.",
+            "actions": [ "Hunting" ],
+            "huntingIDs": [ 69, 71, 74, 66, 67, 68, 380 ],
+            "icon": "oi oi-dial"
+          }
+        ],
+        "icon": "oi oi-random"
+      }, {
+        "areaURL": "RockyShores",
+        "name": "The Rocky Shores",
+        "description": "The shores north of the great Mount Queple. There seems to be a small fishing village east of the beach. You can now quickly access the parts of the shores you have already visited through the sidebar.",
+        "areas" : [
+          {
+            "areaURL": "RockyShoresBeach",
+            "name": "Rocky Shores Beach",
+            "description": "The sprawling beach is the perfect place to catch a variety of fish.",
+            "areaToUnlockOnArrival": "The Rocky Shores",
+            "unlockableAreas": [ "Uragota Town,Walk along the beach,," ],
+            "actions": [ "Fish For Rays:Manta Ray", "Fish For Crabs:Angry Crab", "Fish For Puffers:Puffer Fish", "Gather Seaweed:Seaweed" ],
+            "icon": "oi oi-script"
+          }, {
+            "areaURL": "UragotaTown",
+            "name": "Uragota Town",
+            "description": "A small town sits on the water. There are a number of shops to browse.",
+            "npcIDs": [ 40 ],
+            "buildings": [ "HouseOfFish", "FishermansShack" ],
+            "unlockableAreas": [ "The Northern Isles Dock,Charter a ship north(1000 gold),,Pay Gold:1000", "The Dark River Bridge,Try fishing on the bridge,,", "West Uragota Docks,Go to the docks,," ],
+            "icon": "oi oi-basket"
+          }, {
+            "areaURL": "DarkRiver",
+            "name": "The Dark River Bridge",
+            "description": "A river darkened by runoff from the nearby farms. Shallow and wide, it's a great place to catch carp. Beyond the bridge is another wooded area.",
+            "actions": [ "Fish for carp:Carp", "Fish for salmon:Salmon" ],
+            "unlockableAreas": [ "Higashi Woods Entrance,Head into the forest,," ],
+            "icon": "oi oi-align-center"
+          }, {
+            "areaURL": "WestUragotaDocks",
+            "name": "West Uragota Docks",
+            "description": "There are a number of large and small boats anchored here. A small kiosk with the words 'Boats for Sale' painted poorly on the front stands near the entrance.",
+            "buildings": [ "MoundsBoats" ],
+            "actions": [ "Fish for Saury:Saury", "Fish For Sardines:Sardine", "Fish for Abalone:Abalone" ],
+            "unlockableAreas": [ "East Uragota Docks,Go to the east docks,," ],
+            "icon": "oi oi-sort-ascending"
+          }, {
+            "areaURL": "EastUragotaDocks",
+            "name": "East Uragota Docks",
+            "description": "There are a number of fisherman here. You haven't seen them catch anything, though.",
+            "npcIDs": [ 43 ],
+            "actions": [ "Fish for Shrimp:Shrimp", "Fish For Butterfish:Butterfish" ],
+            "unlockableAreas": [ "Ocean Fishing Platform,Sail to the Ocean Fishing Platform,,", "Deep Ocean Waters,Sail to Deep Ocean Waters,," ],
+            "icon": "oi oi-sort-descending"
+          }, {
+            "areaURL": "OceanFishingPlatform",
+            "name": "Ocean Fishing Platform",
+            "description": "You arrive at the ocean fishing platform. You can catch a number of large ocean fish here.",
+            "npcIDs": [ 45 ],
+            "actions": [ "Fish for Squid:Squid", "Fish for Tuna:Tuna", "Fish for Yellowtail:Yellowtail" ],
+            "actionRequiredForAccess": "Shallow Ocean Travel",
+            "redirectAreaURL": "EastUragotaDocks",
+            "icon": "oi oi-tag"
+          }, {
+            "areaURL": "DeepOcean",
+            "name": "Deep Ocean Waters",
+            "description": "You sail out to sea. All you can see in any direction is water. There will be some very large fish to catch here.",
+            "actions": [ "Fish for Big Tuna:Big Tuna", "Fish for Swordfish:Swordfish", "Fish for Flounder:Flounder" ],
+            "actionRequiredForAccess": "Deep Ocean Travel",
+            "redirectAreaURL": "EastUragotaDocks",
+            "icon": "oi oi-globe"
+          }
+        ],
+        "icon": "oi oi-script"
+      }, {
+        "areaURL": "GreatSwamp",
+        "name": "The Great Swamp",
+        "description": "You enter an enormous swamp. Trees entangle an overgrowth immersed in water. Rice grows wild here.",
+        "isMarked": false,
+        "areas" : [
+          {
+            "areaURL": "Swampland",
+            "name": "Swampland",
+            "description": "You enter an enormous swamp. Trees entangle an overgrowth immersed in water. Rice grows wild here. Ahead you see a dark wooded region.",
+            "areaToUnlockOnArrival": "The Great Swamp",
+            "unlockableAreas": [ "Swampwood, Enter the woods,," ],
+            "actions": [ "Gather Rice:Rice", "Chop Snakewood Trees:Snakewood Logs", "Hunting" ],
+            "huntingIDs": [ 68, 71, 72, 66, 67 ],
+            "icon": "oi oi-inbox",
+          }, {
+            "areaURL": "Swampwood",
+            "name": "Swampwood",
+            "description": "The swamp grows dark under the canopy of trees. The foliage shudders with movement all around you. ",
+            "buildings": [ "LostSwamp" ],
+            "actions": [ "Battle", "Chop Mahogany Trees:Mahogany Logs" ],
+            "monsterIDs": [ 3, 4, 5, 6, 12, 13 ],
+            "icon": "oi oi-rain"
+          }, {
+            "areaURL": "StrangeOldHut",
+            "name": "Strange Old Hut",
+            "description": "You arrive at a decrepit shack with the lights on. A large totem pole stands out in the front lawn. The hill nearby is teeming with coal.",
+            "buildings": [ "EarthHall" ],
+            "actions": [ "Mine Coal:Coal", "Carve totem:Totem" ],
+            "unlockableAreas": [ "Swamplake,Go around the hill,," ],
+            "icon": "oi oi-bug"
+          }, {
+            "areaURL": "Swamplake",
+            "name": "Swamplake",
+            "description": "Despite its name, it appears to be more of a bog than a lake. You can't catch any fish here, but monsters lurk beneath the surface.",
+            "actions": [ "Battle" ],
+            "monsterIDs": [ 5, 6, 12, 13, 14, 15 ],
+            "icon": "oi oi-vertical-align-center"
+          }
+        ],
+        "icon": "oi oi-inbox",
+      }, {
+        "areaURL": "NorthernIsles",
+        "name": "The Northern Isles",
+        "description": "A small, cold island north of Quepland.",
+        "areas" : [
+          {
+            "areaURL": "KogoeTown",
+            "name": "Kogoe Town",
+            "description": "You enter the small fishing village. A road runs through the middle of town. You may be able to buy some supplies here.",
+            "npcIDs": [ 16, 41 ],
+            "buildings": [ "HouseOfFish", "KogoeGym" ],
+            "unlockableAreas": [ "Northern Isles Trails,Follow the road out of town,," ],
+            "icon": "oi oi-vertical-align-bottom"
+          }, {
+            "areaURL": "KogoeGym",
+            "name": "Kogoe Gym",
+            "description": "You enter the gym. You can train your strength and deftness here.",
+            "actionRequiredForAccess": "Gym Membership",
+            "actions": [ "Strength", "Deftness" ],
+            "redirectAreaURL": "KogoeTown",
+            "icon": "oi oi-document"
+          }, {
+            "areaURL": "NorthernIslesDock",
+            "name": "The Northern Isles Dock",
+            "description": "You step onto the dock of a small, chilly village. Ice floes surround this snowy wasteland, and all is white in every direction.",
+            "areaToUnlockOnArrival": "The Northern Isles",
+            "actions": [ "Fish for Icefish:Icefish", "Fish for Scallops:Scallop" ],
+            "unlockableAreas": [ "Kogoe Town,Go into town,," ],
+            "icon": "oi oi-cloud-upload"
+          }, {
+            "areaURL": "NorthernIslesTrails",
+            "name": "Northern Isles Trails",
+            "description": "The lightly wooded path leads into a valley. Eventually you reach a giant stone which has fallen, blocking the way forward. A large totem pole stands nearby.",
+            "actions": [ "Carve totem Pole:Nice Totem",
+                         "Chop Maple Trees:Sugar Maple Logs" ],
+            "unlockableAreas": [ "The Foot of Mt Yama,Destroy the rock with your strength,Strength:45,",
+                                 "The Foot of Mt Yama,Destroy the rock with your mining skills,Mining:40,Mining" ],
+            "icon": "oi oi-fire"
+          }, {
+            "areaURL": "MtYamaFoot",
+            "name": "The Foot of Mt Yama",
+            "description": "The road grows steep as you begin your ascent up Mt Yama.",
+            "npcIDs": [ 8 ],
+            "unlockableAreas": [ "Mt Yama Cave,Continue up the path,," ],
+            "icon": "oi oi-graph"
+          }, {
+            "areaURL": "MtYamaCave",
+            "name": "Mt Yama Cave",
+            "description": "The path leads you up the mountain until you reach an opening into the mountain itself. Strange metallic creatures are roaming around the entrance. There's a big crack in wall.",
+            "buildings": [ "FireHall" ],
+            "unlockableAreas": [ "Mt Yama Mine,Smash open the wall,Hammermanship:45,Hammermanship" ],
+            "actions": [ "Battle" ],
+            "monsterIDs": [ 7, 8, 9, 10 ],
+            "icon": "oi oi-audio"
+          }, {
+            "areaURL": "MtYamaMine",
+            "name": "Mt Yama Mine",
+            "description": "You find a few different large ore veins here. Up higher on the walls appear to be some gold and bauxite, but you can't reach that high. A mine shaft leads deep into the ground.",
+            "actions": [ "Mine Cinnabar:Cinnabar", "Mine Galena:Galena", "Mine Pentlandite:Pentlandite" ],
+            "unlockableAreas": [ "Upper Mt Yama Mine, Build a ladder,Woodworking:60," ],
+            "accessibleRegions": "Caligin Commonwealth,Sahota Ice Fields, Climb down the shaft",
+            "icon": "oi oi-euro"
+          }, {
+            "areaURL": "MtYamaUpperMine",
+            "name": "Upper Mt Yama Mine",
+            "description": "You reach high enough to begin mining the gold and bauxite.",
+            "actions": [ "Mine Gold:Gold Ore", "Mine Bauxite:Bauxite" ],
+            "icon": "oi oi-euro"
+          }
+        ],
+        "icon": "oi oi-globe"
+      }, {
+        "areaURL": "Wasteland",
+        "name": "The Wasteland",
+        "description": "The wasteland is a sizeable desert east of Mt Queple. Most of it is uninhabited and requires a camel to cross.",
+        "areas" : [
+          {
+            "areaURL": "SouthernTrail",
+            "name": "The Southern Trail",
+            "description": "You follow the trail and emerge from the forest into an empty plain. A lone knight stands in the center of the road.",
+            "areaToUnlockOnArrival": "The Wasteland",
+            "npcIDs": [ 7 ],
+            "unlockableAreas": [ "Route 7,Show the knight your skill with the sword,Swordsmanship:55,Swordsmanship" ],
+            "actions": [ "Chop Mesquite Trees:Mesquite Logs" ],
+            "icon": "oi oi-compass"
+          }, {
+            "areaURL": "Route7",
+            "name": "Route 7",
+            "description": "A lone sign names the road 'Route 7'. It seems to continue southward as far as you can see. The air is so warm you won't be able to travel any further by just walking.",
+            "npcIDs": [ 17 ],
+            "buildings": [ "CamelShop" ],
+            "unlockableAreas": [ "Route 7 South,Continue past the shop,," ],
+            "actions": [ "Battle" ],
+            "monsterIDs": [ 17, 21, 22, 23, 45 ],
+            "icon": "oi oi-badge"
+          }, {
+            "areaURL": "Route7South",
+            "name": "Route 7 South",
+            "description": "The camel shop is out of sight. The only things visible are shrubs and sand.",
+            "actionRequiredForAccess": "Desert Travel",
+            "unlockableAreas": [ "Route 7 Crossroads,Continue Southward,," ],
+            "redirectAreaURL": "Route7",
+            "icon": "oi oi-sun"
+          }, {
+            "areaURL": "Route7Crossroads",
+            "name": "Route 7 Crossroads",
+            "description": "You reach an intersection in the middle of the wasteland. You can continue south, or head east or west. A giant sign stands on one corner, and a giant totem pole on the other.",
+            "actionRequiredForAccess": "Desert Travel",
+            "npcIDs": [ 18 ],
+            "actions": [ "Carve totem pole:Exquisite Totem" ],
+            "unlockableAreas": [ "Oasis,Continue Southward,,", "Leupp,Go West,,", "Abandoned Desert Shack,Go East,," ],
+            "redirectAreaURL": "Route7",
+            "icon": "oi oi-signpost"
+          }, {
+            "areaURL": "Oasis",
+            "name": "Oasis",
+            "description": "There is a pool of water supporting a small number of very rare trees here. Far in the distance you can see a mountain range.",
+            "actionRequiredForAccess": "Desert Travel",
+            "npcIDs": [ 44 ],
+            "actions": [ "Chop Lignum Vitae Trees:Lignum Vitae Logs" ],
+            "unlockableAreas": [ "Great Shoe Lake,Travel south to the mountains,," ],
+            "redirectAreaURL": "Route7",
+            "icon": "oi oi-droplet"
+          }, {
+            "areaURL": "AbandonedDesertShack",
+            "name": "Abandoned Desert Shack",
+            "description": "Out in the middle of the wasteland you find an abandonded shack. Its front door is swinging open in the wind.",
+            "buildings": [ "AbandonedDesertShack" ],
+            "icon": "oi oi-credit-card"
+          }, {
+            "areaURL": "Leupp",
+            "name": "Leupp",
+            "description": "You find a small village out in the wasteland. A large fence surrounds the northern half of the city.",
+            "actionRequiredForAccess": "Desert Travel",
+            "npcIDs": [ 20 ],
+            "unlockableAreas": [ "North Leupp,Pass through the gate north,Woodcutting:60,Pay Gold:50000" ],
+            "redirectAreaURL": "Route7",
+            "icon": "oi oi-calendar"
+          }, {
+            "areaURL": "NorthLeupp",
+            "name": "North Leupp",
+            "description": "Inside the fence is a large assortment of trees and a shop to buy woodcutting supplies from.",
+            "actionRequiredForAccess": "Desert Travel",
+            "buildings": [ "WoodcutNut" ],
+            "actions": [ "Chop Buloke Trees:Buloke Logs", "Chop Mahogany Trees:Mahogany Logs", "Chop Balsa Trees:Balsa Logs", "Chop Ironwood Trees:Ironwood Logs" ],
+            "redirectAreaURL": "Route7",
+            "icon": "oi oi-rain"
+          }
+        ],
+        "icon": "oi oi-sun"
+      }, {
+        "areaURL": "HigashiWoods",
+        "name": "Higashi Woods",
+        "description": "A large and varied woodland area.",
+        "areas" : [
+          {
+            "areaURL": "HigashiWoodsEntrance",
+            "name": "Higashi Woods Entrance",
+            "description": "You enter a strange forest. There are a variety of trees to chop here. The path leads deeper into the forest.",
+            "areaToUnlockOnArrival": "Higashi Woods",
+            "actions": [ "Chop Oak Trees:Oak Logs", "Chop Birch Trees:Birch Logs" ],
+            "unlockableAreas": [ "Deep Higashi Woods,Enter the deep forest,," ],
+            "icon": "oi oi-signpost"
+          }, {
+            "areaURL": "DeepHigashiWoods",
+            "name": "Deep Higashi Woods",
+            "description": "You come around a turn in the path to find large piles of cheese and bark. The path winds around them and down a hill.",
+            "npcIDs": [ 39 ],
+            "actions": [ "Gather Cheese:Cheese", "Gather Bark:Bark" ],
+            "unlockableAreas": [ "Higashi Bridge,Head down the hill,," ],
+            "icon": "oi oi-rain"
+          }, {
+            "areaURL": "HigashiBridge",
+            "name": "Higashi Bridge",
+            "description": "At the bottom of the hill is a gorge with a bridge running across it. Or, there used to be a bridge. You'll need to repair it or jump to get across.",
+            "actions": [ "Hunting", "Battle" ],
+            "unlockableAreas": [ "East Higashi Woods,Jump across the gap,Deftness:35,", "East Higashi Woods,Repair the bridge,Woodworking:35," ],
+            "huntingIDs": [ 70, 72, 73 ],
+            "monsterIDs": [ 16, 18, 19, 20, 46 ],
+            "icon": "oi oi-transfer"
+          }, {
+            "areaURL": "EastHigashiWoods",
+            "name": "East Higashi Woods",
+            "description": "On the other side you find a number of balsa trees. The road leads south.",
+            "npcIDs": [ 51 ],
+            "actions": [ "Chop Balsa Trees:Balsa Logs", "Gather Hemp:Hemp" ],
+            "unlockableAreas": [ "The Southern Trail,Take the road out of the forest,," ],
+            "icon": "oi oi-trash"
+          }
+        ],
+        "icon": "oi oi-rain"
+      }, {
+        "areaURL": "RisingHills",
+        "name": "The Rising Hills",
+        "description": "A mountain range.",
+        "areas" : [
+          {
+            "areaURL": "ShoeLake",
+            "name": "Great Shoe Lake",
+            "description": "You reach the Rising hills. The lake sits at the foot of a huge mountain range. It may have once looked like a shoe. Legends tell of monsters beneath the surface of the water.",
+            "areaToUnlockOnArrival": "The Rising Hills",
+            "actions": [ "Battle" ],
+            "monsterIDs": [ 15, 24, 25, 45 ],
+            "unlockableAreas": [ "Tsu Valley,Hike the mountain trail,," ],
+            "icon": "oi oi-vertical-align-center"
+          }, {
+            "areaURL": "TsuValley",
+            "name": "Tsu Valley",
+            "description": "You follow the path down to an open field. Up ahead you see a large castle town.",
+            "npcIDs": [ 24, 25 ],
+            "unlockableAreas": [ "Tree Nursery,Continue toward the castle town,," ],
+            "icon": "oi oi-chevron-bottom"
+          }, {
+            "areaURL": "TreeNursery",
+            "name": "Tree Nursery",
+            "description": "The road leads you through a tree nursery. There are plenty of trees to chop down here, but it looks like someone else owns them.",
+            "npcIDs": [ 26, 62 ],
+            "unlockableAreas": [ "West Tsu City,Follow the road into town,," ],
+            "icon": "oi oi-rain"
+          }, {
+            "areaURL": "WestTsuCity",
+            "name": "West Tsu City",
+            "description": "You pass through the gate into the large city of Tsu. There are a good number of shops here, as well as a main road which leads up to the castle.",
+            "npcIDs": [ 27, 28 ],
+            "unlockableAreas": [ "Central Tsu City,Go to the heart of the city,," ],
+            "icon": "oi oi-credit-card"
+          }, {
+            "areaURL": "CentralTsuCity",
+            "name": "Central Tsu City",
+            "description": "You reach the center of the city. The area is mostly residential, but the castle grounds are open to the public.",
+            "npcIDs": [ 29 ],
+            "unlockableAreas": [ "Tsu Castle,Enter the castle courtyard,,", "East Tsu City,Go east to the shopping district,,", "North Tsu City,Go north,," ],
+            "icon": "oi oi-document"
+          }, {
+            "areaURL": "TsuCastle",
+            "name": "Tsu Castle",
+            "description": "Arriving in the castle courtyard, you find a number of bowmen training their archery skills on dummies.",
+            "npcIDs": [ 30 ],
+            "buildings": [ "ArcheryShop" ],
+            "actions": [ "Battle" ],
+            "monsterIDs": [ 28 ],
+            "icon": "oi oi-laptop"
+          }, {
+            "areaURL": "EastTsuCity",
+            "name": "East Tsu City",
+            "description": "You enter the main shopping center of Tsu City. Malls and stalls line the road on either side.",
+            "npcIDs": [ 31, 32 ],
+            "buildings": [ "ElementalEmporium" ],
+            "icon": "oi oi-lock-locked"
+          }, {
+            "areaURL": "NorthTsuCity",
+            "name": "North Tsu City",
+            "description": "You pass by the castle heading north and reach a quiet residential area. You can see the entrance to a massive garden up ahead.",
+            "npcIDs": [ 33, 47 ],
+            "unlockableAreas": [ "Great Garden, Pay the bribe,,Pay Gold:15000" ],
+            "icon": "oi oi-link-intact"
+          }, {
+            "areaURL": "Garden",
+            "name": "Great Garden",
+            "description": "You enter a beautiful garden, full of flowers, trees, and an expansive pond. A central field has the perfect spot to do some yoga.",
+            "actions": [ "Yoga" ],
+            "icon": "oi oi-sun"
+          }
+        ],
+        "icon": "oi oi-graph"
+      }, {
+        "areaURL": "HoinRiverValley",
+        "name": "Hoin River Valley",
+        "description": "A deep and winding valley that flows down from the mountains into the Middlesea.",
+        "isMarked": false,
+        "areas" : [
+          {
+            "areaURL": "HoinRiverbank",
+            "name": "Hoin Riverbank",
+            "description": "You reach a river surrounded on both sides by thick foliage. You'll have to float down the river if you want to continue.",
+            "areaToUnlockOnArrival": "Hoin River Valley",
+            "npcIDs": [ 50 ],
+            "unlockableAreas": [ "The Hoin River,Ride down stream,," ],
+            "icon": "oi oi-action-redo"
+          }, {
+            "areaURL": "HoinRiver",
+            "name": "The Hoin River",
+            "description": "You float along the river and see all sorts of fish beneath the surface of the water.",
+            "unlockableAreas": [ "Plantrain Plains,Continue floating,," ],
+            "actions": [ "Harpoon Fishing" ],
+            "actionRequiredForAccess": "Rafting",
+            "icon": "oi oi-lightbulb"
+          }, {
+            "areaURL": "PlantrainPlains",
+            "name": "Plantrain Plains",
+            "description": "The trees on the banks grow thin as you pass by an open field filled with small farm plots. A few old buildings sit along their edge.",
+            "actionRequiredForAccess": "Rafting",
+            "npcIDs": [ 9, 52 ],
+            "buildings": [
+              "Amante",
+              "SoulGoods"
+            ],
+            "unlockableAreas": [ "Sun's Harbor,Ride further down stream,," ],
+            "icon": "oi oi-grid-three-up"
+          }, {
+            "areaURL": "SunsHarbor",
+            "name": "Sun's Harbor",
+            "description": "A solitary building sits just off the shore of the river. It's flanked by an extremely old graveyard.",
+            "actionRequiredForAccess": "Rafting",
+            "npcIDs": [ 53 ],
+            "buildings": [ "TammysTannery" ],
+            "actions": [ "Battle" ],
+            "unlockableAreas": [ "Guttermouth,Continue down the river,," ],
+            "monsterIDs": [ 31, 32, 33, 34, 35, 36, 37, 38 ],
+            "icon": "oi oi-cloudy"
+          }, {
+            "areaURL": "Guttermouth",
+            "name": "Guttermouth",
+            "description": "You begin to reach signs of civilization. Down at the river's mouth you can see a large city. A number of houses surround the main building here, which has the word 'Woodworks' carved on the front of it.",
+            "actionRequiredForAccess": "Rafting",
+            "npcIDs": [ 11 ],
+            "buildings": [ "WoodWorkersAssociation" ],
+            "icon": "oi oi-eye"
+          }, {
+            "areaURL": "Ricechild",
+            "name": "Ricechild",
+            "description": "You reach a bustling city at the mouth of the river. There are a few interesting shops here.",
+            "actionRequiredForAccess": "Rafting",
+            "icon": "oi oi-people"
+          }
+        ],
+        "icon": "oi oi-inbox"
+      }
+    ]
+  },
+  {
+    "areaURL": "Caligin",
+    "name": "Caligin Commonwealth",
+    "description": "A vast world buried deep beneath Quepland. They don't get many visitors here...",
+    "zones" : [
+      {
+        "areaURL": "SahotaTir",
+        "name": "Sahota Tir",
+        "description": "An icy region of Caligin.",
+        "areas" : [
+          {
+            "areaURL": "SahotaIceFields",
+            "name": "Sahota Ice Fields",
+            "description": "A cavern of ice that extends as far as the eye can see. Frosty creatures roam the plain, and the walls are solid ice that may be extractable. There is an entrance to a cave system, but most of the paths are blocked by overgrown roots that have frozen solid.",
+            "areaToUnlockOnArrival": "Sahota Tir",
+            "npcIDs": [ 37, 64 ],
+            "actions": [ "Mine Ice:Ice Block", "Battle", "Chop Ice Trees:Ice Logs" ],
+            "accessibleRegions": "Quepland,Mt Yama Mine,Climb up to the surface",
+            "unlockableAreas": [ "Sahota Caverns,Chop the frozen roots,Woodcutting:75,", "Sahota Caverns,Hack away the frozen roots,Axemanship:75,", "Sahota Dungeon,Follow the main cave path,," ],
+            "monsterIDs": [ 40, 41, 42, 43, 44 ],
+            "icon": "oi oi-chevron-bottom"
+          }, {
+            "areaURL": "SahotaCaverns",
+            "name": "Sahota Caverns",
+            "description": "A series of tunnels that weave around the walls of the ice fields. There's water beneath your feet, and here and there you find holes large enough to fish from.",
+            "actions": [ "Hunting", "Bait Fishing" ],
+            "huntingIDs": [ 71, 67, 69, 436 ],
+            "icon": "oi oi-random"
+          }, {
+            "areaURL": "SahotaDungeon",
+            "name": "Sahota Dungeon",
+            "description": "As you descend deeper into the tunnels, the temperature begins to rise. You find the tunnel you're traversing is narrowing until you reach an opening into a glittering cave. The walls shimmer with jewels. A dwarf stands just inside looking at you expectantly.",
+            "npcIDs": [66],
+            "actions": [ "Gem Mining" ],
+            "icon": "oi oi-random"
+          }
+        ],
+        "icon": "oi oi-chevron-bottom"
+      }
+    ]
+  }
+]
