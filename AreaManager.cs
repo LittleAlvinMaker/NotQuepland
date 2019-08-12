@@ -13,8 +13,19 @@ public class AreaManager
 	}
     public async Task LoadAreas(HttpClient Http)
     {
-        Area[] areasArray = await Http.GetJsonAsync<Area[]>("data/areas.json");
-        areas = areasArray.ToList();
+        Region[] regionsArray = await Http.GetJsonAsync<Region[]>("data/areasTree.json");
+        List areas = new List();
+        //        areas = areasArray.ToList();
+        foreach (Region region in regionsArray)
+        {
+          foreach (Zone zone in region.zones)
+          {
+            foreach (Area area in zone.areas)
+            {
+              areas[area.id] = area;
+            }
+          }
+        }
         areas[0].IsUnlocked = true;
     }
     public string SaveAreas()
@@ -101,7 +112,7 @@ public class AreaManager
     public Area GetAreaParent(Area area)
     {
         foreach(Area a in areas)
-        {         
+        {
             foreach(string s in a.Children ?? Enumerable.Empty<string>())
             {
                 if (s.Contains(area.AreaURL))
@@ -137,4 +148,3 @@ public class AreaManager
         }
     }
 }
-

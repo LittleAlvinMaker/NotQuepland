@@ -1,12 +1,12 @@
 [
   {
     "areaURL": "Quepland",
-    "name" : "Quepland",
+    "name": "Quepland",
     "description": "The main region of the world. Home to cities, forests, mountains, and oceans.",
     "zones" : [
       {
         "areaURL": "MountQueple",
-        "name" : "Mount Queple",
+        "name": "Mount Queple",
         "description": "The mountain near which you began your journey.",
         "areas" : [
           {
@@ -15,6 +15,7 @@
             "description": "There is a small stream and a forest of white pine trees. A large poplar tree has fallen and blocks your path forward.",
             "unlockableAreas": [ "Quepland Woods,Clear away Tree,Woodcutting:2,Woodcutting" ],
             "actions": [ "Fish For Minnows:Minnow", "Chop White Pine Trees:White Pine Logs" ],
+            "ID": 0,
             "icon": "oi oi-fire"
           }, {
             "areaURL": "queplandWoods",
@@ -25,6 +26,7 @@
             "npcIDs": [ 49, 63 ],
             "monsterIDs": [ 2, 11, 4 ],
             "huntingIDs": [ 14, 15, 66, 67, 68, 69, 71 ],
+            "ID": 1,
             "icon": "oi oi-rain"
           }, {
             "areaURL": "quepleFoot",
@@ -33,6 +35,7 @@
             "unlockableAreas": [ "Teppas,Head to village,," ],
             "actions": [ "Gather Stone:Stone", "Gather Berries:Berry" ],
             "npcIDs": [ 14 ],
+            "ID": 2,
             "icon": "oi oi-graph"
           }, {
             "areaURL": "teppas",
@@ -41,6 +44,7 @@
             "buildings": [ "TeppasGeneralStore", "MayorsHouse", "TeppasInn" ],
             "unlockableAreas": [ "Lower Mt Queple Trail, Go through the village,," ],
             "npcIDs": [ 13 ],
+            "ID": 3,
             "icon": "oi oi-basket"
           }, {
             "areaURL": "lowerMtQuepleTrail",
@@ -51,6 +55,7 @@
             "actions": [ "Mining", "Battle", "Carve totem pole:Cheap Totem" ],
             "npcIDs": [ 19 ],
             "monsterIDs": [ 0, 1, 2 ],
+            "ID": 4,
             "icon": "oi oi-compass"
           }, {
             "areaURL": "upperMTQuepleTrail",
@@ -61,12 +66,14 @@
             "npcIDs": [ 65, 70 ],
             "hasDojo": true,
             "dojoID": 0,
+            "ID": 5,
             "icon": "oi oi-compass"
           }, {
             "areaURL": "MtQueplePeak",
             "name": "The Peak of Mount Queple",
             "description": "You arrive near the summit of the mountain to find an abandoned building. The roar of rushing wind emanates through its halls.",
             "buildings": [ "WindHall" ],
+            "ID": 19,
             "icon": "oi oi-chevron-top"
           }, {
             "areaURL": "EasternTrail",
@@ -74,6 +81,7 @@
             "description": "You continue along the trail and pass by Mount Queple. A large swamp comes into view up ahead.",
             "unlockableAreas": [ "Swampland,Continue Down into the Swamp,," ],
             "npcIDs": [ 15 ],
+            "ID": 21,
             "icon": "oi oi-flag"
           }
         ],
@@ -89,30 +97,35 @@
             "description": "Inside the cave you find a labyrinth of tunnels enveloped in darkness. It's probably safe to explore.",
             "areaToUnlockOnArrival": "Queple Cave",
             "buildings": [ "QuepleCaveEntrance" ],
+            "ID": 6,
             "icon": "oi oi-pulse"
           }, {
             "areaURL": "QCCopperMine",
             "name": "Queple Cave Copper Mine",
             "description": "There is a lot of copper here.",
             "actions": [ "Mine Copper:Copper Ore" ],
+            "ID": 8,
             "icon": "oi oi-euro"
           }, {
             "areaURL": "QuepleCaveSmithy",
             "name": "Queple Cave Smithy",
             "description": "There is a large, working forge here.",
             "actions": [ "Smithing" ],
+            "ID": 18,
             "icon": "oi oi-aperture"
           }, {
             "areaURL": "QCTinMine",
             "name": "Queple Cave Tin Mine",
             "description": "There is a lot of tin here.",
             "actions": [ "Mine Tin:Tin Ore" ],
+            "ID": 9,
             "icon": "oi oi-euro"
           }, {
             "areaURL": "QCIronMine",
             "name": "Queple Cave Iron Mine",
             "description": "There is a lot of iron here.",
             "actions": [ "Mine Iron:Iron Ore" ],
+            "ID": 10,
             "icon": "oi oi-euro"
           }, {
             "areaURL": "QCRiver",
@@ -120,6 +133,7 @@
             "description": "There are a lot of fish here.",
             "actions": [ "Fish for shad:Shad", "Fish for salmon:Salmon", "Battle" ],
             "monsterIDs": [ 15, 24, 25, 26, 27, 39 ],
+            "ID": 11,
             "icon": "oi oi-droplet"
           }, {
             "areaURL": "QCHuntingCave",
@@ -127,6 +141,7 @@
             "description": "There are plenty of exotic animals to catch here.",
             "actions": [ "Hunting" ],
             "huntingIDs": [ 69, 71, 74, 66, 67, 68, 380 ],
+            "ID": 12,
             "icon": "oi oi-dial"
           }
         ],
@@ -143,6 +158,7 @@
             "areaToUnlockOnArrival": "The Rocky Shores",
             "unlockableAreas": [ "Uragota Town,Walk along the beach,," ],
             "actions": [ "Fish For Rays:Manta Ray", "Fish For Crabs:Angry Crab", "Fish For Puffers:Puffer Fish", "Gather Seaweed:Seaweed" ],
+            "ID": 15,
             "icon": "oi oi-script"
           }, {
             "areaURL": "UragotaTown",
@@ -153,6 +169,7 @@
             "unlockableAreas": [ "The Northern Isles Dock,Charter a ship north(1000 gold),,Pay Gold:1000", "The Dark River Bridge,Try fishing on the bridge,,", "West Uragota Docks,Go to the docks,," ],
             "hasDojo": true,
             "dojoID": 1,
+            "ID": 16,
             "icon": "oi oi-basket"
           }, {
             "areaURL": "DarkRiver",
@@ -161,6 +178,7 @@
             "npcIDs": [72],
             "actions": [ "Fish for carp:Carp", "Fish for salmon:Salmon" ],
             "unlockableAreas": [ "Higashi Woods Entrance,Head into the forest,," ],
+            "ID": 17,
             "icon": "oi oi-align-center"
           }, {
             "areaURL": "WestUragotaDocks",
@@ -169,6 +187,7 @@
             "buildings": [ "MoundsBoats" ],
             "actions": [ "Fish for Saury:Saury", "Fish For Sardines:Sardine", "Fish for Abalone:Abalone" ],
             "unlockableAreas": [ "East Uragota Docks,Go to the east docks,," ],
+            "ID": 47,
             "icon": "oi oi-sort-ascending"
           }, {
             "areaURL": "EastUragotaDocks",
@@ -177,6 +196,7 @@
             "npcIDs": [ 43 ],
             "actions": [ "Fish for Shrimp:Shrimp", "Fish For Butterfish:Butterfish" ],
             "unlockableAreas": [ "Ocean Fishing Platform,Sail to the Ocean Fishing Platform,,", "Deep Ocean Waters,Sail to Deep Ocean Waters,," ],
+            "ID": 48,
             "icon": "oi oi-sort-descending"
           }, {
             "areaURL": "OceanFishingPlatform",
@@ -186,6 +206,7 @@
             "actions": [ "Fish for Squid:Squid", "Fish for Tuna:Tuna", "Fish for Yellowtail:Yellowtail" ],
             "actionRequiredForAccess": "Shallow Ocean Travel",
             "redirectAreaURL": "EastUragotaDocks",
+            "ID": 49,
             "icon": "oi oi-tag"
           }, {
             "areaURL": "DeepOcean",
@@ -194,6 +215,7 @@
             "actions": [ "Fish for Big Tuna:Big Tuna", "Fish for Swordfish:Swordfish", "Fish for Flounder:Flounder" ],
             "actionRequiredForAccess": "Deep Ocean Travel",
             "redirectAreaURL": "EastUragotaDocks",
+            "ID": 50,
             "icon": "oi oi-globe"
           }
         ],
@@ -212,6 +234,7 @@
             "unlockableAreas": [ "Swampwood, Enter the woods,," ],
             "actions": [ "Gather Rice:Rice", "Chop Snakewood Trees:Snakewood Logs", "Hunting" ],
             "huntingIDs": [ 68, 71, 72, 66, 67 ],
+            "ID": 22,
             "icon": "oi oi-inbox",
           }, {
             "areaURL": "Swampwood",
@@ -220,6 +243,7 @@
             "buildings": [ "LostSwamp" ],
             "actions": [ "Battle", "Chop Mahogany Trees:Mahogany Logs" ],
             "monsterIDs": [ 3, 4, 5, 6, 12, 13 ],
+            "ID": 24,
             "icon": "oi oi-rain"
           }, {
             "areaURL": "StrangeOldHut",
@@ -228,6 +252,7 @@
             "buildings": [ "EarthHall" ],
             "actions": [ "Mine Coal:Coal", "Carve totem:Totem" ],
             "unlockableAreas": [ "Swamplake,Go around the hill,," ],
+            "ID": 39,
             "icon": "oi oi-bug"
           }, {
             "areaURL": "Swamplake",
@@ -235,6 +260,7 @@
             "description": "Despite its name, it appears to be more of a bog than a lake. You can't catch any fish here, but monsters lurk beneath the surface.",
             "actions": [ "Battle" ],
             "monsterIDs": [ 5, 6, 12, 13, 14, 15 ],
+            "ID": 52,
             "icon": "oi oi-vertical-align-center"
           }
         ],
@@ -251,6 +277,7 @@
             "npcIDs": [ 16, 41 ],
             "buildings": [ "HouseOfFish", "KogoeGym" ],
             "unlockableAreas": [ "Northern Isles Trails,Follow the road out of town,," ],
+            "ID": 29,
             "icon": "oi oi-vertical-align-bottom"
           }, {
             "areaURL": "KogoeGym",
@@ -259,6 +286,7 @@
             "actionRequiredForAccess": "Gym Membership",
             "actions": [ "Strength", "Deftness" ],
             "redirectAreaURL": "KogoeTown",
+            "ID": 33,
             "icon": "oi oi-document"
           }, {
             "areaURL": "NorthernIslesDock",
@@ -267,6 +295,7 @@
             "areaToUnlockOnArrival": "The Northern Isles",
             "actions": [ "Fish for Icefish:Icefish", "Fish for Scallops:Scallop" ],
             "unlockableAreas": [ "Kogoe Town,Go into town,," ],
+            "ID": 20,
             "icon": "oi oi-cloud-upload"
           }, {
             "areaURL": "NorthernIslesTrails",
@@ -276,6 +305,7 @@
                          "Chop Maple Trees:Sugar Maple Logs" ],
             "unlockableAreas": [ "The Foot of Mt Yama,Destroy the rock with your strength,Strength:45,",
                                  "The Foot of Mt Yama,Destroy the rock with your mining skills,Mining:40,Mining" ],
+            "ID": 30,
             "icon": "oi oi-fire"
           }, {
             "areaURL": "MtYamaFoot",
@@ -283,6 +313,7 @@
             "description": "The road grows steep as you begin your ascent up Mt Yama.",
             "npcIDs": [ 8 ],
             "unlockableAreas": [ "Mt Yama Cave,Continue up the path,," ],
+            "ID": 31,
             "icon": "oi oi-graph"
           }, {
             "areaURL": "MtYamaCave",
@@ -292,6 +323,7 @@
             "unlockableAreas": [ "Mt Yama Mine,Smash open the wall,Hammermanship:45,Hammermanship" ],
             "actions": [ "Battle" ],
             "monsterIDs": [ 7, 8, 9, 10 ],
+            "ID": 40,
             "icon": "oi oi-audio"
           }, {
             "areaURL": "MtYamaMine",
@@ -300,12 +332,14 @@
             "actions": [ "Mine Cinnabar:Cinnabar", "Mine Galena:Galena", "Mine Pentlandite:Pentlandite" ],
             "unlockableAreas": [ "Upper Mt Yama Mine, Build a ladder,Woodworking:60," ],
             "accessibleRegions": "Caligin Commonwealth,Sahota Ice Fields, Climb down the shaft",
+            "ID": 42,
             "icon": "oi oi-euro"
           }, {
             "areaURL": "MtYamaUpperMine",
             "name": "Upper Mt Yama Mine",
             "description": "You reach high enough to begin mining the gold and bauxite.",
             "actions": [ "Mine Gold:Gold Ore", "Mine Bauxite:Bauxite" ],
+            "ID": 43,
             "icon": "oi oi-euro"
           }
         ],
@@ -323,6 +357,7 @@
             "npcIDs": [ 7 ],
             "unlockableAreas": [ "Route 7,Show the knight your skill with the sword,Swordsmanship:55,Swordsmanship" ],
             "actions": [ "Chop Mesquite Trees:Mesquite Logs" ],
+            "ID": 34,
             "icon": "oi oi-compass"
           }, {
             "areaURL": "Route7",
@@ -333,6 +368,7 @@
             "unlockableAreas": [ "Route 7 South,Continue past the shop,," ],
             "actions": [ "Battle" ],
             "monsterIDs": [ 17, 21, 22, 23, 45 ],
+            "ID": 36,
             "icon": "oi oi-badge"
           }, {
             "areaURL": "Route7South",
@@ -341,6 +377,7 @@
             "actionRequiredForAccess": "Desert Travel",
             "unlockableAreas": [ "Route 7 Crossroads,Continue Southward,," ],
             "redirectAreaURL": "Route7",
+            "ID": 37,
             "icon": "oi oi-sun"
           }, {
             "areaURL": "Route7Crossroads",
@@ -351,6 +388,7 @@
             "actions": [ "Carve totem pole:Exquisite Totem" ],
             "unlockableAreas": [ "Oasis,Continue Southward,,", "Leupp,Go West,,", "Abandoned Desert Shack,Go East,," ],
             "redirectAreaURL": "Route7",
+            "ID": 38,
             "icon": "oi oi-signpost"
           }, {
             "areaURL": "Oasis",
@@ -361,12 +399,14 @@
             "actions": [ "Chop Lignum Vitae Trees:Lignum Vitae Logs" ],
             "unlockableAreas": [ "Great Shoe Lake,Travel south to the mountains,," ],
             "redirectAreaURL": "Route7",
+            "ID": 44,
             "icon": "oi oi-droplet"
           }, {
             "areaURL": "AbandonedDesertShack",
             "name": "Abandoned Desert Shack",
             "description": "Out in the middle of the wasteland you find an abandonded shack. Its front door is swinging open in the wind.",
             "buildings": [ "AbandonedDesertShack" ],
+            "ID": 41,
             "icon": "oi oi-credit-card"
           }, {
             "areaURL": "Leupp",
@@ -376,6 +416,7 @@
             "npcIDs": [ 20 ],
             "unlockableAreas": [ "North Leupp,Pass through the gate north,Woodcutting:60,Pay Gold:50000" ],
             "redirectAreaURL": "Route7",
+            "ID": 45,
             "icon": "oi oi-calendar"
           }, {
             "areaURL": "NorthLeupp",
@@ -385,6 +426,7 @@
             "buildings": [ "WoodcutNut" ],
             "actions": [ "Chop Buloke Trees:Buloke Logs", "Chop Mahogany Trees:Mahogany Logs", "Chop Balsa Trees:Balsa Logs", "Chop Ironwood Trees:Ironwood Logs" ],
             "redirectAreaURL": "Route7",
+            "ID": 46,
             "icon": "oi oi-rain"
           }
         ],
@@ -401,6 +443,7 @@
             "areaToUnlockOnArrival": "Higashi Woods",
             "actions": [ "Chop Oak Trees:Oak Logs", "Chop Birch Trees:Birch Logs" ],
             "unlockableAreas": [ "Deep Higashi Woods,Enter the deep forest,," ],
+            "ID": 25,
             "icon": "oi oi-signpost"
           }, {
             "areaURL": "DeepHigashiWoods",
@@ -409,6 +452,7 @@
             "npcIDs": [ 39 ],
             "actions": [ "Gather Cheese:Cheese", "Gather Bark:Bark" ],
             "unlockableAreas": [ "Higashi Bridge,Head down the hill,," ],
+            "ID": 26,
             "icon": "oi oi-rain"
           }, {
             "areaURL": "HigashiBridge",
@@ -418,6 +462,7 @@
             "unlockableAreas": [ "East Higashi Woods,Jump across the gap,Deftness:35,", "East Higashi Woods,Repair the bridge,Woodworking:35," ],
             "huntingIDs": [ 70, 72, 73 ],
             "monsterIDs": [ 16, 18, 19, 20, 46 ],
+            "ID": 27,
             "icon": "oi oi-transfer"
           }, {
             "areaURL": "EastHigashiWoods",
@@ -426,6 +471,7 @@
             "npcIDs": [ 51 ],
             "actions": [ "Chop Balsa Trees:Balsa Logs", "Gather Hemp:Hemp" ],
             "unlockableAreas": [ "The Southern Trail,Take the road out of the forest,," ],
+            "ID": 28,
             "icon": "oi oi-trash"
           }
         ],
@@ -443,6 +489,7 @@
             "actions": [ "Battle" ],
             "monsterIDs": [ 15, 24, 25, 45 ],
             "unlockableAreas": [ "Tsu Valley,Hike the mountain trail,," ],
+            "ID": 54,
             "icon": "oi oi-vertical-align-center"
           }, {
             "areaURL": "TsuValley",
@@ -450,6 +497,7 @@
             "description": "You follow the path down to an open field. Up ahead you see a large castle town.",
             "npcIDs": [ 24, 25 ],
             "unlockableAreas": [ "Tree Nursery,Continue toward the castle town,," ],
+            "ID": 55,
             "icon": "oi oi-chevron-bottom"
           }, {
             "areaURL": "TreeNursery",
@@ -457,6 +505,7 @@
             "description": "The road leads you through a tree nursery. There are plenty of trees to chop down here, but it looks like someone else owns them.",
             "npcIDs": [ 26, 62 ],
             "unlockableAreas": [ "West Tsu City,Follow the road into town,," ],
+            "ID": 56,
             "icon": "oi oi-rain"
           }, {
             "areaURL": "WestTsuCity",
@@ -464,6 +513,7 @@
             "description": "You pass through the gate into the large city of Tsu. There are a good number of shops here, as well as a main road which leads up to the castle.",
             "npcIDs": [ 27, 28 ],
             "unlockableAreas": [ "Central Tsu City,Go to the heart of the city,," ],
+            "ID": 57,
             "icon": "oi oi-credit-card"
           }, {
             "areaURL": "CentralTsuCity",
@@ -471,6 +521,7 @@
             "description": "You reach the center of the city. The area is mostly residential, but the castle grounds are open to the public.",
             "npcIDs": [ 29 ],
             "unlockableAreas": [ "Tsu Castle,Enter the castle courtyard,,", "East Tsu City,Go east to the shopping district,,", "North Tsu City,Go north,," ],
+            "ID": 58,
             "icon": "oi oi-document"
           }, {
             "areaURL": "TsuCastle",
@@ -480,6 +531,7 @@
             "buildings": [ "ArcheryShop" ],
             "actions": [ "Battle" ],
             "monsterIDs": [ 28 ],
+            "ID": 59,
             "icon": "oi oi-laptop"
           }, {
             "areaURL": "EastTsuCity",
@@ -487,6 +539,7 @@
             "description": "You enter the main shopping center of Tsu City. Malls and stalls line the road on either side.",
             "npcIDs": [ 31, 32 ],
             "buildings": [ "ElementalEmporium" ],
+            "ID": 60,
             "icon": "oi oi-lock-locked"
           }, {
             "areaURL": "NorthTsuCity",
@@ -494,12 +547,14 @@
             "description": "You pass by the castle heading north and reach a quiet residential area. You can see the entrance to a massive garden up ahead.",
             "npcIDs": [ 33, 47 ],
             "unlockableAreas": [ "Great Garden, Pay the bribe,,Pay Gold:15000" ],
+            "ID": 61,
             "icon": "oi oi-link-intact"
           }, {
             "areaURL": "Garden",
             "name": "Great Garden",
             "description": "You enter a beautiful garden, full of flowers, trees, and an expansive pond. A central field has the perfect spot to do some yoga.",
             "actions": [ "Yoga" ],
+            "ID": 69,
             "icon": "oi oi-sun"
           }
         ],
@@ -517,6 +572,7 @@
             "areaToUnlockOnArrival": "Hoin River Valley",
             "npcIDs": [ 50 ],
             "unlockableAreas": [ "The Hoin River,Ride down stream,," ],
+            "ID": 63,
             "icon": "oi oi-action-redo"
           }, {
             "areaURL": "HoinRiver",
@@ -525,6 +581,7 @@
             "unlockableAreas": [ "Plantrain Plains,Continue floating,," ],
             "actions": [ "Harpoon Fishing" ],
             "actionRequiredForAccess": "Rafting",
+            "ID": 68,
             "icon": "oi oi-lightbulb"
           }, {
             "areaURL": "PlantrainPlains",
@@ -537,6 +594,7 @@
               "SoulGoods"
             ],
             "unlockableAreas": [ "Sun's Harbor,Ride further down stream,," ],
+            "ID": 64,
             "icon": "oi oi-grid-three-up"
           }, {
             "areaURL": "SunsHarbor",
@@ -548,6 +606,7 @@
             "actions": [ "Battle" ],
             "unlockableAreas": [ "Guttermouth,Continue down the river,," ],
             "monsterIDs": [ 31, 32, 33, 34, 35, 36, 37, 38 ],
+            "ID": 65,
             "icon": "oi oi-cloudy"
           }, {
             "areaURL": "Guttermouth",
@@ -556,12 +615,14 @@
             "actionRequiredForAccess": "Rafting",
             "npcIDs": [ 11 ],
             "buildings": [ "WoodWorkersAssociation" ],
+            "ID": 66,
             "icon": "oi oi-eye"
           }, {
             "areaURL": "Ricechild",
             "name": "Ricechild",
             "description": "You reach a bustling city at the mouth of the river. There are a few interesting shops here.",
             "actionRequiredForAccess": "Rafting",
+            "ID": 67,
             "icon": "oi oi-people"
           }
         ],
@@ -589,6 +650,7 @@
             "accessibleRegions": "Quepland,Mt Yama Mine,Climb up to the surface",
             "unlockableAreas": [ "Sahota Caverns,Chop the frozen roots,Woodcutting:75,", "Sahota Caverns,Hack away the frozen roots,Axemanship:75,", "Sahota Dungeon,Follow the main cave path,," ],
             "monsterIDs": [ 40, 41, 42, 43, 44 ],
+            "ID": 73,
             "icon": "oi oi-chevron-bottom"
           }, {
             "areaURL": "SahotaCaverns",
@@ -597,6 +659,7 @@
             "actions": [ "Hunting", "Bait Fishing" ],
             "unlockableAreas": ["Sahota Pet Care Cave,Enter the door,,"],
             "huntingIDs": [ 71, 67, 69, 436 ],
+            "ID": 74,
             "icon": "oi oi-compass"
           }, {
             "areaURL": "SahotaDungeon",
@@ -604,6 +667,7 @@
             "description": "As you descend deeper into the tunnels, the temperature begins to rise. You find the tunnel you're traversing is narrowing until you reach an opening into a glittering cave. The walls shimmer with jewels. A dwarf stands just inside looking at you expectantly.",
             "npcIDs": [66],
             "actions": [ "Gem Mining" ],
+            "ID": 75,
             "icon": "oi oi-random"
           }, {
             "areaURL": "SahotaPetCareCave",
@@ -611,6 +675,7 @@
             "description": "You step through the door into another cave. A poorly painted sign on the far wall reads, \"Pet Care\" in poorly drawn letters. A man in a trench coat stands beneath the sign, wielding a large wooden club.",
             "npcIDs": [ 67, 68 ],
             "actions": [ "Pet Forgetter" ],
+            "ID": 76,
             "icon": "oi oi-badge"
           }
         ],
