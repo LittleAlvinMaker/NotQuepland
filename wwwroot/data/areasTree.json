@@ -58,7 +58,9 @@
             "description": "Having made a good distance up the mountain, you find the only way the rest of the way up is to climb.",
             "unlockableAreas": [ "The Peak of Mount Queple,Climb to the summit,,", "Eastern Trail,Continue around the mountain,," ],
             "actions": [ "Chop Oak Trees:Oak Logs" ],
-            "npcIDs": [65],
+            "npcIDs": [ 65, 70 ],
+            "hasDojo": true,
+            "dojoID": 0,
             "icon": "oi oi-compass"
           }, {
             "areaURL": "MtQueplePeak",
@@ -149,11 +151,14 @@
             "npcIDs": [ 40 ],
             "buildings": [ "HouseOfFish", "FishermansShack" ],
             "unlockableAreas": [ "The Northern Isles Dock,Charter a ship north(1000 gold),,Pay Gold:1000", "The Dark River Bridge,Try fishing on the bridge,,", "West Uragota Docks,Go to the docks,," ],
+            "hasDojo": true,
+            "dojoID": 1,
             "icon": "oi oi-basket"
           }, {
             "areaURL": "DarkRiver",
             "name": "The Dark River Bridge",
             "description": "A river darkened by runoff from the nearby farms. Shallow and wide, it's a great place to catch carp. Beyond the bridge is another wooded area.",
+            "npcIDs": [72],
             "actions": [ "Fish for carp:Carp", "Fish for salmon:Salmon" ],
             "unlockableAreas": [ "Higashi Woods Entrance,Head into the forest,," ],
             "icon": "oi oi-align-center"
@@ -588,10 +593,11 @@
           }, {
             "areaURL": "SahotaCaverns",
             "name": "Sahota Caverns",
-            "description": "A series of tunnels that weave around the walls of the ice fields. There's water beneath your feet, and here and there you find holes large enough to fish from.",
+            "description": "A series of tunnels that weave around the walls of the ice fields. There's water beneath your feet, and here and there you find holes large enough to fish from. There's a door at the far end of one of the tunnels.",
             "actions": [ "Hunting", "Bait Fishing" ],
+            "unlockableAreas": ["Sahota Pet Care Cave,Enter the door,,"],
             "huntingIDs": [ 71, 67, 69, 436 ],
-            "icon": "oi oi-random"
+            "icon": "oi oi-compass"
           }, {
             "areaURL": "SahotaDungeon",
             "name": "Sahota Dungeon",
@@ -599,6 +605,13 @@
             "npcIDs": [66],
             "actions": [ "Gem Mining" ],
             "icon": "oi oi-random"
+          }, {
+            "areaURL": "SahotaPetCareCave",
+            "name": "Sahota Pet Care Cave",
+            "description": "You step through the door into another cave. A poorly painted sign on the far wall reads, \"Pet Care\" in poorly drawn letters. A man in a trench coat stands beneath the sign, wielding a large wooden club.",
+            "npcIDs": [ 67, 68 ],
+            "actions": [ "Pet Forgetter" ],
+            "icon": "oi oi-badge"
           }
         ],
         "icon": "oi oi-chevron-bottom"
