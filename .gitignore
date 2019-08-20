@@ -338,3 +338,6 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# Solution file for my fork of Quepland (called NotQuepland)
+NotQuepland.sln
